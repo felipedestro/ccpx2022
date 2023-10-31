@@ -102,7 +102,7 @@ section {
 
 /* CONTAINER */
 
-.container {
+#sale {
     display: grid;
     grid-auto-flow: column;
 
@@ -124,7 +124,7 @@ section {
 
     text-align: center;
     font-family: Verdana;
-    font-size: 26px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -134,19 +134,19 @@ section {
 }
 
 .tickets img{
-    height: 180px;
+    height: 160px;
     justify-content: center;
 
 }
 
-.push {
+#push {
     display: grid;
     justify-content: center;
 }
 
-.push button {
-    width: 400px;
-    height: 100px;
+#push button {
+    width: 380px;
+    height: 90px;
 
     border-radius: 20px;
     background: #514988;
