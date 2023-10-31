@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: #FFD900;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 60px;
+    margin-left: 30px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* INFORMAÇÕES APENAS COM TEXTOS */
+
+.information {
+    background-color: #514988;
+    padding-bottom: 35px;
+}
+
+.information h1 {
+    color: #F3C61F;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.information h3 {
+    color: #FFF;
+    font-family: Verdana;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-bottom: 40px;
+}
+
+.information p {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Verdana;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* COUNTDOWN AND VIDEO */
+.count {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 20px;
+
+    display: grid;
+    align-items: center;
+}
+
+.count h3 {
+    color: #E33881;
+
+    text-align: center;
+    font-family: Verdana;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-bottom: 20px;
+}
+
+#countdown {
+    color: #514988;
+
+    text-align: center;
+    font-family: Verdana;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* CONTAINER */
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+
+    margin-top: 15px;
+    align-items: center;
+    gap: 10px;
+
+    padding-bottom: 30px;
+}
+
+.tickets {
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+}
+
+.tickets h3 {
+    color: #F3C61F;
+
+    text-align: center;
+    font-family: Verdana;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.tickets img{
+    height: 180px;
+    justify-content: center;
+
+}
+
+.push {
+    display: grid;
+    justify-content: center;
+}
+
+.push button {
+    width: 400px;
+    height: 100px;
+
+    border-radius: 20px;
+    background: #514988;
+    border: none;
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Verdana;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    justify-items: center;
+
+    cursor: pointer;
+}
+
