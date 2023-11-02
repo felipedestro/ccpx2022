@@ -136,7 +136,7 @@ section {
 .tickets img{
     height: 160px;
     justify-content: center;
-
+    gap: 10px
 }
 
 #push {
@@ -164,5 +164,15 @@ section {
     justify-items: center;
 
     cursor: pointer;
+}
+
+#push button:hover {
+    background-color: #514988;
+    cursor: pointer;
+    color: #F3C61F;
+}
+
+.card-highlight {
+    filter: drop-shadow(10px 10px 7px gray);
 }
 
