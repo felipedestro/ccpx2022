@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+:root {
+    --img-height: 150px;
+}
+
 /* HEADER */
 
 header {
@@ -133,15 +137,22 @@ section {
     align-items: center;
 }
 
-.tickets img{
-    height: 160px;
+.tickets div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
     justify-content: center;
-    gap: 10px
+}
+
+.tickets img{
+    flex-basis: 100px;
+    flex-basis: 2;
+    height: var(--img-height);
 }
 
 #push {
-    display: grid;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 #push button {
@@ -161,7 +172,7 @@ section {
     font-weight: 700;
     line-height: normal;
 
-    justify-items: center;
+    margin-top: 15px;
 
     cursor: pointer;
 }
@@ -172,7 +183,15 @@ section {
     color: #F3C61F;
 }
 
+/* MODIFICAÇÕES NO CARDS */
+
 .card-highlight {
     filter: drop-shadow(10px 10px 7px gray);
+    --img-height: 160px;
+}
+
+.card-selected {
+    filter: opacity(50%);
+    --img-height: 165px
 }
 

@@ -48,27 +48,29 @@
           <img
             src="./assets/img/quinta-feira.svg"
             id="quinta"
+            onclick="selectCard('#quinta')"
             onmouseover="highlightCard('#quinta')"
             onmouseleave="highlightCard('#quinta')" />
           <img
             src="./assets/img/sexta-feira.svg"
             id="sexta"
+            onclick="selectCard('#sexta')"
             onmouseover="highlightCard('#sexta')"
             onmouseleave="highlightCard('#sexta')" />
           <img
             src="./assets/img/sabado.svg"
             id="sabado"
-            onmouseover="highlightCard('#sabado')"
-            onmouseleave="highlightCard('#sabado')" />
+            style="filter: grayscale(100%)" />
           <img
             src="./assets/img/domingo.svg"
             id="domingo"
+            onclick="selectCard('#domingo')"
             onmouseover="highlightCard('#domingo')"
             onmouseleave="highlightCard('#domingo')" />
         </div>
       </div>
       <div id="push">
-        <button>GARANTA O SEU!</button>
+        <button onclick="showSelectedCards()">GARANTA O SEU!</button>
       </div>
     </section>
 

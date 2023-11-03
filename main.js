@@ -1,21 +1,23 @@
+const ingressos = [];
+
 function highlightCard(selector) {
   var element = document.querySelector(selector);
   element.classList.toggle("card-highlight");
 }
 
-function checkKeyboardCode() {
-  document.addEventListener(
-    "keydown",
-    (event) => {
-      var name = event.key;
-      var code = event.code;
+// function checkKeyboardCode() {
+//   document.addEventListener(
+//     "keydown",
+//     (event) => {
+//       var name = event.key;
+//       var code = event.code;
 
-      //Alert the key name and key code on keydown
-      alert(`Tecla pressionada: ${name} \r\n Key code: ${code}`);
-    },
-    false
-  );
-}
+//       //Alert the key name and key code on keydown
+//       alert(`Tecla pressionada: ${name} \r\n Key code: ${code}`);
+//     },
+//     false
+//   );
+// }
 
 function addKeyboardEventListeners() {
   document.addEventListener(
@@ -32,6 +34,7 @@ function addKeyboardEventListeners() {
       switch (code) {
         // Caso seja digitado 1 via teclado sem parte numerica
         case "Digit1":
+          1;
           ticket1.classList.toggle("card-highlight");
           ticket2.classList.remove("card-highlight");
           ticket3.classList.remove("card-highlight");
@@ -99,6 +102,17 @@ function addKeyboardEventListeners() {
   );
 }
 
+function selectCard(selector) {
+  var element = document.querySelector(selector);
+  element.classList.toggle("card-selected");
+  return ingressos.includes(selector)
+    ? ingressos.pop(selector)
+    : ingressos.push(selector);
+}
+
+showSelectedCards = () => {
+  if (ingressos.length > 0) alert("Ingressos selecionados: " + ingressos);
+};
+
 // checkKeyboardCode();
 addKeyboardEventListeners();
-1;
