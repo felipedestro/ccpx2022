@@ -110,7 +110,7 @@ section {
     display: grid;
     grid-auto-flow: column;
 
-    margin-top: 15px;
+    margin-top: 30px;
     align-items: center;
     gap: 10px;
 
@@ -194,4 +194,36 @@ section {
     filter: opacity(50%);
     --img-height: 165px
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #F3C61F;
+}
+
+.footer input {
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 55px;
+    font-size: 24px;
+}
+
+.footer input[type = email] {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.footer input[type = submit] {
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    background-color: #514988;
+    margin-left: 20px;
+}
+
+
 
