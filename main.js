@@ -5,20 +5,6 @@ function highlightCard(selector) {
   element.classList.toggle("card-highlight");
 }
 
-// function checkKeyboardCode() {
-//   document.addEventListener(
-//     "keydown",
-//     (event) => {
-//       var name = event.key;
-//       var code = event.code;
-
-//       //Alert the key name and key code on keydown
-//       alert(`Tecla pressionada: ${name} \r\n Key code: ${code}`);
-//     },
-//     false
-//   );
-// }
-
 function addKeyboardEventListeners() {
   document.addEventListener(
     "keydown",
