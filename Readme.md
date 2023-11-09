@@ -3,7 +3,6 @@
 <p align="center">
   <img alt="Projeto Landing Page CCPX" align="center" width="100%" src="./assets/img/mobile.png">
 </p>
----
 
 <p align="center">
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
