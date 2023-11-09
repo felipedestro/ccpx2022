@@ -1,12 +1,14 @@
-# Documentação Landing Page DNC
+<h1 align="center">Documentação Landing Page DNC</h1>
 
-![mobile.png](./assets/img/mobile.png)
-
+<p align="center">
+  <img alt="Projeto Landing Page CCPX" align="center" width="100%" src="./assets/img/mobile.png">
+</p>
 ---
 
 <p align="center">
-  <a href="#Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|
+  <a href="#principais-funções">Principais Funções</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 ## Tecnologias
@@ -70,6 +72,6 @@ Ele contabiliza o tempo com base na data atual
 
 ---
 
-<p align="center"> 
+<p align="center" style="text-decoration: none"> 
   Feito com ♥ by Felipe Destro 👋 <a href="https://github.com/felipedestro">Conheças meus projetos</a>
 </p>
