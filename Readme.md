@@ -5,10 +5,9 @@
 ---
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-principais-funcoes">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#principais funções">Principais Funções</a>&nbsp;&nbsp;&nbsp;|
 </p>
 
 ## Tecnologias
@@ -22,7 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-A página proposta serve como um estudo de JS Intermediário. Tem como objetivo desenvolver aplicando funcionalidades Javascript junto a aplicação de HTML e CSS.
+A página proposta serve como um estudo de JS Intermediário. Tem como objetivo desenvolver uma landing page aplicando funcionalidades Javascript junto a aplicação de HTML e CSS.
 
 ## Principais Funções
 
@@ -72,4 +71,4 @@ Ele contabiliza o tempo com base na data atual
 
 ---
 
-eito com ♥ by Felipe Destro 👋 [Conheças mais projetos](https://github.com/felipedestro)
+Feito com ♥ by Felipe Destro 👋 [Conheças mais projetos](https://github.com/felipedestro)
