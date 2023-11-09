@@ -5,9 +5,8 @@
 ---
 
 <p align="center">
-  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#principais funções">Principais Funções</a>&nbsp;&nbsp;&nbsp;|
+  <a href="#Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 ## Tecnologias
@@ -71,4 +70,6 @@ Ele contabiliza o tempo com base na data atual
 
 ---
 
-Feito com ♥ by Felipe Destro 👋 [Conheças mais projetos](https://github.com/felipedestro)
+<p align="center"> 
+  Feito com ♥ by Felipe Destro 👋 <a href="https://github.com/felipedestro">Conheças meus projetos</a>
+</p>
